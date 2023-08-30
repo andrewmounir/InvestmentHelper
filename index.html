@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:ital,wght@0,800;1,500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+
+        <h1>احسب المتوسط و مصاريف اضافية </h1>
+    </header>
+
+    <div class="container">
+        <main class="left-div">
+
+            <div class="elmtwst2dim">
+
+                <div>
+
+
+                    <label for="">سعر شراء القديم</label>
+                    <br>
+                    <input class="inputOldPrice" type="text">
+                </div>
+                <br>
+                <div>
+                    <label for="">عدد الاسهم</label>
+                    <br>
+                    <input class="inputOldQuantityStocks" type="text">
+                </div>
+
+
+
+            </div>
+            <br>
+            <div class="elmtwstgdid">
+
+                <div>
+                    <label for="">سعر شراء الجديد</label>
+                    <br>
+
+                    <input class="inputNewPrice" type="text">
+                </div>
+
+                <br>
+
+                <div>
+
+                    <label for="">عدد الاسهم</label>
+                    <br>
+
+                    <input class="inputNewQuantityStocks" type="text">
+                </div>
+
+
+
+            </div>
+            <div class="submitButton">
+                <input class="btnSubmit avg" type="button" value="احسب">
+            </div>
+
+
+
+
+        </main>
+
+        <div class="msarif">
+
+            <label for="">حساب سعر المصاريف</label>
+            <p>(سعر الشراء او البيع)</p>
+            <br>
+            <input class="inputfees" type="text">
+
+
+
+            <div class="submitButton ">
+                <input class="btnSubmit fees" type="button" value="احسب">
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <footer class="right-div">
+
+
+            <div class="resultPosition">
+                <h1 class="average">النتيجة</h1>
+
+                <div class="feesResult">
+
+
+                </div>
+
+
+            </div>
+
+        </footer>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

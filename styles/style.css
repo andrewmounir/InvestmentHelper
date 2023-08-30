@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+} */
+input {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-width: calc(var(--border-width) * 1px);
+  border-style: solid;
+  border-color: var(--accent);
+  border-radius: calc(var(--border-radius) * 1px);
+  text-align: center;
+  outline: transparent;
+  width: 100% transition;
+  border-color: calc(var(--transition, 0.2) * 1s) ease;
+}
+/* .elmtwst2dim {
+  padding: 25px;
+} */
+/* .submitButton {
+  margin: 15px 0;
+} */
+.btnSubmit {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column; /* Stack items in a column on small screens */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .btnSubmit {
+    background-color: brown; /* Change button color on small screens */
+    margin-left: 0; /* Remove margin for center alignment */
+    margin-top: 10px; /* Add some spacing at the top */
+  }
+}
