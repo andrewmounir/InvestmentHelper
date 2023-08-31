@@ -25,7 +25,7 @@ button.navBtn {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #c3edc0;
+  background-color: #aac8a7;
 }
 
 h1 {
@@ -72,6 +72,10 @@ input {
   margin-top: 10px;
   cursor: pointer;
   /* margin-left: 20%; */
+}
+
+.showHideResultPosition {
+  display: none;
 }
 
 @media screen and (max-width: 600px) {

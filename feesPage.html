@@ -4,154 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./assets/icons8-favicon-94.png">
-    <title>InvestmentHelper👳‍♀️</title>
-
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:ital,wght@0,800;1,500&display=swap"
-        rel="stylesheet">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
-
-
-
-
 
 <body>
 
 
-    <nav class="navigationBar">
 
-        <button class="btnSubmit navBtn">
+    <div class="msarif">
 
-            احسب المتوسط
-        </button>
-
-
-        <button class="btnSubmit navBtn">مصاريف اضافية</button>
-
-        <button class="btnSubmit navBtn">
-
-            نسبة الربج او الخسارة
-        </button> <button class="btnSubmit navBtn">مواقع البورصة </button>
-
-    </nav>
+        <label for="">حساب سعر المصاريف</label>
+        <p>(سعر الشراء او البيع)</p>
+        <br>
+        <input class="inputfees" type="text">
 
 
 
+        <div class="submitButton ">
+            <input class="btnSubmit fees" type="button" value="احسب">
 
 
-    <header>
-
-
-
-
-
-
-        <h1>احسب المتوسط و مصاريف اضافية </h1>
-
-
-
-    </header>
-
-    <div class="container">
-
-
-        <main class="left-div">
-
-            <div class="elmtwst2dim">
-
-                <div>
-
-
-                    <label for="">سعر شراء القديم</label>
-                    <br>
-                    <input class="inputOldPrice" type="text">
-                </div>
-                <br>
-                <div>
-                    <label for="">عدد الاسهم</label>
-                    <br>
-                    <input class="inputOldQuantityStocks" type="text">
-                </div>
-
-
-
-            </div>
-            <br>
-            <div class="elmtwstgdid">
-
-                <div>
-                    <label for="">سعر شراء الجديد</label>
-                    <br>
-
-                    <input class="inputNewPrice" type="text">
-                </div>
-
-                <br>
-
-                <div>
-
-                    <label for="">عدد الاسهم</label>
-                    <br>
-
-                    <input class="inputNewQuantityStocks" type="text">
-                </div>
-
-
-
-            </div>
-            <div class="submitButton">
-                <input class="btnSubmit avg" type="button" value="احسب">
-            </div>
-
-
-
-
-        </main>
-
-
-
-        <footer class="right-div">
-
-
-            <div class="resultPosition">
-                <h1 class="average">النتيجة</h1>
-
-                <div class="feesResult">
-
-
-                </div>
-
-
-            </div>
-
-        </footer>
-
-
-
-
-
-
-
-        <script src="script.js"></script>
-        <script>
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/service-worker.js')
-                    .then(function (registration) {
-                        console.log('Service Worker registered with scope:', registration.scope);
-                    }).catch(function (error) {
-                        console.log('Service Worker registration failed:', error);
-                    });
-            }
-        </script>
-
-    </div>
+            <script src="./script.js"></script>
 </body>
-
 
 </html>
