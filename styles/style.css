@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;
+  background-color: #aac8a7;
 }
 .container {
   display: flex;
@@ -11,6 +12,20 @@
   /* align-items: center; */
   /* height: 100vh; */
   justify-content: space-evenly;
+}
+
+button.navBtn {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.navigationBar {
+  padding-top: 1px;
+  margin-top: 1px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #c3edc0;
 }
 
 h1 {
@@ -41,6 +56,10 @@ input {
 /* .submitButton {
   margin: 15px 0;
 } */
+
+.msarif {
+  margin-top: 20px;
+}
 .btnSubmit {
   background-color: #4caf50; /* Green */
   border: none;
@@ -52,6 +71,7 @@ input {
   font-size: 16px;
   margin-top: 10px;
   cursor: pointer;
+  /* margin-left: 20%; */
 }
 
 @media screen and (max-width: 600px) {
